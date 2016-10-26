@@ -9,20 +9,20 @@ http://www.tooplate.com/view/2078-adventure
 /* Body 
 ------------------------------------- */
 body {
-  background: #ffffff;
-  font-family: Arial, Helvetica, sans-serif;
-  font-weight: normal;
-  position: relative;
+    background: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    position: relative;
 }
 
 html,body {
-  overflow-x: hidden;
-  font-size: 100%;
-  width: 100%;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  vertical-align: baseline;
-}
+     overflow-x: hidden;
+     font-size: 100%;
+     width: 100%;
+     -webkit-font-smoothing: antialiased;
+     -moz-osx-font-smoothing: grayscale;
+     vertical-align: baseline;
+  }
 
 img {
   vertical-align: middle;
@@ -89,16 +89,16 @@ hr {
 }
 
 .panel {
-  background-color: #161616;
-  border: 0px;
+	background-color: #161616;
+	border: 0px;
 }
 
 .panel-title {
-  color: #FFF;
+	color: #FFF;
 }
 
 .panel-body p {
-  color: #CCC;
+	color: #CCC;
 }
 
 .medium-icon {
@@ -107,10 +107,10 @@ hr {
   font-weight: bold;
 }
 
-#work, #about, #team,
+#work, #about, #team, 
 #portfolio, #plan, #contact {
-  padding-top: 120px;
-  padding-bottom: 100px;
+	padding-top: 120px;
+	padding-bottom: 100px;
 }
 
 #team, #portfolio, #contact {
@@ -126,17 +126,17 @@ hr {
 /* preloader styles
 /* ========================================== */
 .preloader {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  z-index: 99999;
-  display: flex;
-  flex-flow: row nowrap;
-  justify-content: center;
-  align-items: center;
-  background: none repeat scroll 0 0 #fff;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 99999;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    background: none repeat scroll 0 0 #fff;
 }
 
 .sk-rotating-plane {
@@ -144,38 +144,38 @@ hr {
   height: 40px;
   background-color: #ffa400;
   -webkit-animation: sk-rotatePlane 1.2s infinite ease-in-out;
-  animation: sk-rotatePlane 1.2s infinite ease-in-out; }
+          animation: sk-rotatePlane 1.2s infinite ease-in-out; }
 
 @-webkit-keyframes sk-rotatePlane {
   0% {
     -webkit-transform: perspective(120px) rotateX(0deg) rotateY(0deg);
-    transform: perspective(120px) rotateX(0deg) rotateY(0deg); }
+            transform: perspective(120px) rotateX(0deg) rotateY(0deg); }
   50% {
     -webkit-transform: perspective(120px) rotateX(-180.1deg) rotateY(0deg);
-    transform: perspective(120px) rotateX(-180.1deg) rotateY(0deg); }
+            transform: perspective(120px) rotateX(-180.1deg) rotateY(0deg); }
   100% {
     -webkit-transform: perspective(120px) rotateX(-180deg) rotateY(-179.9deg);
-    transform: perspective(120px) rotateX(-180deg) rotateY(-179.9deg); } }
+            transform: perspective(120px) rotateX(-180deg) rotateY(-179.9deg); } }
 
 @keyframes sk-rotatePlane {
   0% {
     -webkit-transform: perspective(120px) rotateX(0deg) rotateY(0deg);
-    transform: perspective(120px) rotateX(0deg) rotateY(0deg); }
+            transform: perspective(120px) rotateX(0deg) rotateY(0deg); }
   50% {
     -webkit-transform: perspective(120px) rotateX(-180.1deg) rotateY(0deg);
-    transform: perspective(120px) rotateX(-180.1deg) rotateY(0deg); }
+            transform: perspective(120px) rotateX(-180.1deg) rotateY(0deg); }
   100% {
     -webkit-transform: perspective(120px) rotateX(-180deg) rotateY(-179.9deg);
-    transform: perspective(120px) rotateX(-180deg) rotateY(-179.9deg); } }
+            transform: perspective(120px) rotateX(-180deg) rotateY(-179.9deg); } }
 
 
 /* navigation styles
 /* ========================================== */
 .custom-navbar {
-  background: #000000;
-  border: none;
-  margin-bottom: 0;
-  text-align: center;
+    background: #000000;
+    border: none;
+    margin-bottom: 0;
+    text-align: center;
 }
 
 .custom-navbar .navbar-brand  {
@@ -187,24 +187,24 @@ hr {
 }
 
 .custom-navbar .navbar-brand .navbar-toggle {
-  background: #ffa400;
-  padding: 4px 6px;
-  font-size: 16px;
-  color: #fff;
+    background: #ffa400;
+     padding: 4px 6px;
+    font-size: 16px;
+    color: #fff;
 }
 
 .custom-navbar .nav li {
-
-}
+  
+}    
 
 .custom-navbar .nav li a {
-  display: block;
-  padding: 15px 20px;
-  color: #ffffff;
-  font-size: 12px;
-  font-weight: 400;
-  letter-spacing: 2px;
-}
+	display: block;
+	padding: 15px 20px;
+    color: #ffffff;
+    font-size: 12px;
+    font-weight: 400;
+    letter-spacing: 2px;
+ }
 
 .custom-navbar .nav li a:hover {
   background: transparent;
@@ -221,34 +221,34 @@ hr {
 }
 
 .custom-navbar .navbar-toggle {
-  border: none;
+    border: none;
 }
 .custom-navbar .navbar-toggle .icon-bar {
-  background: #ffa400;
-  border-color: transparent;
+    background: #ffa400;
+    border-color: transparent;
 }
 
 @media(min-width:768px) {
 
-  .custom-navbar {
-    border-bottom: 1px solid rgba(250,250,250,0.3);
-    padding: 16px;
-    background: 0 0;
-  }
+    .custom-navbar {
+         border-bottom: 1px solid rgba(250,250,250,0.3);
+        padding: 16px;
+       background: 0 0;
+    }
 
-  .custom-navbar.top-nav-collapse {
-    padding: 16px;
-    background: #000000;
-    border-bottom: 0;
-  }
+    .custom-navbar.top-nav-collapse {
+       padding: 16px;
+      background: #000000;
+      border-bottom: 0;
+    }
 }
 
 @media (max-width: 767px) {
 
-  .custom-navbar .nav li.active > a {
-    border-bottom: 2px solid transparent !important;
-    color: #ffa400;
-  }
+   .custom-navbar .nav li.active > a {
+        border-bottom: 2px solid transparent !important;
+        color: #ffa400;
+    }
 
 }
 
@@ -303,7 +303,7 @@ hr {
   margin-bottom: 24px;
 }
 .slider-caption p {
-  font-size: 26px;
+	font-size: 26px;
 }
 
 #bx-pager a {
@@ -411,7 +411,7 @@ hr {
 }
 
 #about .border-right {
-  border-right: 2px solid rgba(250,250,250,0.8);
+   border-right: 2px solid rgba(250,250,250,0.8);
 }
 
 
@@ -769,13 +769,13 @@ footer h2 {
 
 @media (max-width: 980px) {
   .slider-caption {
-    bottom: 60px;
+	  bottom: 60px;
   }
   .slider-caption h2 {
-    font-size: 32px;
+	font-size: 32px;
   }
   .slider-caption p {
-    font-size: 18px;
+	  font-size: 18px;
   }
   .bx-controls-direction {
     right: 30px;
@@ -787,28 +787,28 @@ footer h2 {
     font-size: 62px;
   }
   .custom-navbar .navbar-brand  {
-    border: none;
-    font-size: 18px;
+	  border: none;
+	  font-size: 18px;
   }
 }
 
 @media (max-width: 768px) {
-
+	
   .slider-caption {
-    bottom: 30px;
+	  bottom: 30px;
   }
   .slider-caption h2 {
-    font-size: 18px;
+	font-size: 18px;
   }
   .slider-caption p {
-    font-size: 12px;
-    line-height: 14px;
+	  font-size: 12px;
+	  line-height: 14px;
   }
-
+  
   .bx-controls-direction {
     bottom: -40px;
   }
-
+  
   #about .mobile-top {
     padding-top: 32px;
   }
@@ -819,7 +819,7 @@ footer h2 {
     margin-left: auto;
   }
   .grid figure img {
-    margin-bottom: 22px;
+  margin-bottom: 22px;
   }
   #portfolio .portfolio-bottom {
     position: relative;
